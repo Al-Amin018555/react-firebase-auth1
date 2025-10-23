@@ -1,5 +1,3 @@
-//DO NOT SHARE FIREBASE CONFIG ONLINE
-
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
@@ -8,12 +6,12 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBFYjhScKW7uaD5CAReQCRq6gg1twyjFPo",
-  authDomain: "simple-firebase-auth-8296a.firebaseapp.com",
-  projectId: "simple-firebase-auth-8296a",
-  storageBucket: "simple-firebase-auth-8296a.firebasestorage.app",
-  messagingSenderId: "1085250246101",
-  appId: "1:1085250246101:web:0cb783213d4cef2d39195c"
+    apiKey: "AIzaSyDG99b2Mw-JsQIP8_9yhEaHOp3N9nOI6zc",
+    authDomain: "simple-firebase-auth2-5e138.firebaseapp.com",
+    projectId: "simple-firebase-auth2-5e138",
+    storageBucket: "simple-firebase-auth2-5e138.firebasestorage.app",
+    messagingSenderId: "837018747593",
+    appId: "1:837018747593:web:e0642bb5c6869550ba4318"
 };
 
 // Initialize Firebase

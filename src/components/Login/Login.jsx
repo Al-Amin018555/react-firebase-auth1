@@ -5,17 +5,10 @@ import { auth } from "../../firebase/firebase.init";
 const Login = () => {
 
     const provider = new GoogleAuthProvider();
-
     const handleGoogleSignIn = () => {
         console.log('google sign in clicked');
-        signInWithPopup(auth, provider)
-        .then(result =>{
-            console.log(result);
-        })
-        .catch(error => {
-            console.log(error);
-        })
 
+        signInWithPopup(auth, provider).then(result => console.log(result)).catch(error => console.log(error))
     }
     return (
         <div>
